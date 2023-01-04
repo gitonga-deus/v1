@@ -27,7 +27,6 @@ h6 {
 #sideNav .navbar-nav .nav-item .nav-link {
 	font-size: 16px;
 	font-weight: 400;
-	text-transform: uppercase
 }
 
 @media (min-width:992px) {
@@ -74,4 +73,38 @@ h6 {
 	#sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
 		display: block
 	}
+}
+
+.resume-section {
+	border-bottom: 1px solid #dee2e6;
+	padding-top: 5rem !important;
+	padding-bottom: 5rem !important;
+	;
+}
+
+.resume-section .resume-item .resume-date {
+	min-width: none
+}
+
+@media (min-width:768px) {
+	.resume-section {
+		min-height: 100vh
+	}
+
+	.resume-section .resume-item .resume-date {
+		min-width: 18rem
+	}
+}
+
+@media (min-width:992px) {
+	.resume-section {
+		padding-top: 3rem !important;
+		padding-bottom: 3rem !important;
+		position: absolute;
+		left: 350px;
+	}
+}
+
+.bg-color {
+	background-color: #0d1117
 }

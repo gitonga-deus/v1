@@ -4,10 +4,7 @@ import { data } from "../utilities/data"
 
 export const Navigation = () => {
 	return (
-		<Nav className="navbar navbar-expand-lg navbar-dark fixed-top px-4" id="sideNav" style={{
-			backgroundColor: "#0d1117",
-		}}>
-
+		<Nav className="navbar navbar-expand-lg navbar-dark bg-color fixed-top px-4" id="sideNav">
 			<a className="navbar-brand js-scroll-trigger" href="#page-top">
 				<span className="d-block d-lg-none">Deus Gitonga</span>
 				<span className="d-none d-lg-block">
