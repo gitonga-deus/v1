@@ -1,32 +1,30 @@
 // Navbar Icons
-import home from "../assets/navbar/home.svg";
-import about from "../assets/navbar/about.svg";
-import skills from "../assets/navbar/skills.svg";
-import services from "../assets/navbar/services.svg";
-import project from "../assets/navbar/projects.svg";
-import contact from "../assets/navbar/contact.svg";
+import { GrMail } from "react-icons/gr";
+import { MdArrowForward, MdCall } from "react-icons/md";
+import { BsInstagram } from "react-icons/bs";
+import { TbSmartHome } from "react-icons/tb";
+import { BiUser } from "react-icons/bi";
+import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
+import { MdOutlinePermContactCalendar } from "react-icons/md";
 
 
 export const data = {
 	nav: [
 		{
 			link: "#Home",
-			icon: home
+			icon: TbSmartHome
 		}, {
 			link: "#About",
-			icon: about
-		}, {
-			link: "#Skills",
-			icon: skills
+			icon: BiUser
 		}, {
 			link: "#Services",
-			icon: services
+			icon: RiServiceLine
 		}, {
 			link: "#Project",
-			icon: project
+			icon: RiProjectorLine
 		}, {
 			link: "#Contact",
-			icon: contact
+			icon: MdOutlinePermContactCalendar
 		}
 	],
 
