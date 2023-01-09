@@ -1,10 +1,11 @@
-import { GrMail } from "react-icons/gr";
-import { MdArrowForward, MdCall } from "react-icons/md";
-import { BsInstagram } from "react-icons/bs";
+// Navbar Icons
 import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
+
+// Hero SVG
+import heroSVG from "./assets/hero.svg"
 
 export const data = {
 	navigation: [
@@ -33,5 +34,12 @@ export const data = {
 			link: "#Contact",
 			icon: MdOutlinePermContactCalendar,
 		}
-	]
+	],
+
+	hero: {
+		name: "Deus Gitonga",
+		title: "Software Engineer",
+		btnText: "Download CV",
+		image: heroSVG
+	}
 }

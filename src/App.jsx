@@ -1,5 +1,10 @@
 import { useEffect } from "react"
+
+// Layout - Navbar
 import Navbar from "./layout/Navbar"
+
+// Components
+import Hero from "./components/Hero"
 
 import Aos from "aos"
 import "aos/dist/aos.css"
@@ -17,6 +22,7 @@ const App = () => {
 	return (
 		<div>
 			<Navbar />
+			<Hero />
 		</div>
 	)
 }
