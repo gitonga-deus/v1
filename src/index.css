@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:500,700");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,4 +7,6 @@
 html,
 body {
 	background-color: #0d1117;
+	height: 100vh;
+	font-family: "Rubik", sans-serif;
 }
